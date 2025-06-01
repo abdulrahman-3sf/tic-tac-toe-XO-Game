@@ -190,6 +190,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -211,50 +212,9 @@ namespace WindowsFormsApp1
             e.Graphics.DrawLine(pen, 360, 230, 640, 230);
             e.Graphics.DrawLine(pen, 360, 330, 640, 330);
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-            changeImage(button1);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            changeImage(button2);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            changeImage(button3);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            changeImage(button4);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            changeImage(button5);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            changeImage(button6);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            changeImage(button7);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            changeImage(button8);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            changeImage(button9);
+            changeImage((Button)sender);
         }
 
         private void btnRestart_Click(object sender, EventArgs e)
